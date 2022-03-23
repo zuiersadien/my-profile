@@ -1,12 +1,12 @@
 import lottie from 'lottie-web'
-
+import './app.css'
 
 
 function App() {
   const app=document.getElementById('lot')
 
   lottie.loadAnimation({
-    container: app,
+    wrapper: app,
     renderer: 'svg',
     loop: true,
     autoplay: true,

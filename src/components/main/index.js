@@ -2,7 +2,7 @@ import React from "react";
 import { ContactFixed } from "../contactFixed";
 import { Header } from "../header/index";
 import { Presentacion } from "../Presentacion";
-
+import { OtherWords } from "../otherWords";
 import { Portafolio } from "../Portafolio";
 import { Words } from "../words";
 export const Main = () => {
@@ -13,6 +13,7 @@ export const Main = () => {
       <ContactFixed/>
       <Portafolio/>
       <Words/>
+      <OtherWords/>
     </div>
   );
 };

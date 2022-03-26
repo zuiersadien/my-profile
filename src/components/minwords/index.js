@@ -1,14 +1,15 @@
 import React from "react";
-import {CustonMinWords,TextDiv,ImgDiv,Image,H3,Resalto,Linktitulo,DivPs} from "./styles";
+import {CustonMinWords,TextDiv,IconDiv,ImgDiv,LinkIcono,Image,H3,Resalto,ImgLink,Linktitulo,DivPs} from "./styles";
 import { NavLink } from "react-router-dom";
 import { AiOutlineGithub } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi';
 
-export const Minword = (props) => {
+export const Minword = (props,left) => {
   return (
-    <CustonMinWords>
-      <TextDiv>
+    <CustonMinWords >
+      <TextDiv variant={props.variant}>
         <Linktitulo to="/">
+          <p>proyecto V.3</p>
           <H3>{props.title}</H3>
         </Linktitulo>
         <Resalto>
@@ -16,22 +17,22 @@ export const Minword = (props) => {
         </Resalto>
         <DivPs>
           {props.tecnologias.map((i) => (
-            <p>{i}</p>
+            <p key={props.key}>{i}</p>
           ))}
         </DivPs>
-        <div>
-          <NavLink to="/">
+        <IconDiv>
+          <LinkIcono to="/">
               <AiOutlineGithub/>
-          </NavLink>
-          <NavLink to="/">
+          </LinkIcono>
+          <LinkIcono to="/">
               <FiExternalLink/>
-          </NavLink>
-        </div>
+          </LinkIcono>
+        </IconDiv>
       </TextDiv>
-      <ImgDiv>
-            <NavLink to="/">
+      <ImgDiv variant={props.variant}>
+            <ImgLink to="/">
             <Image src={props.img} alt="" />
-            </NavLink>
+            </ImgLink>
   
       </ImgDiv>
     </CustonMinWords>

@@ -32,7 +32,7 @@ export const Portafolio = () => {
       renderer: "svg",
       loop: true,
       autoplay: true,
-      path: "https://assets3.lottiefiles.com/packages/lf20_douhbfp2.json",
+      path: "https://assets4.lottiefiles.com/packages/lf20_xqjdisla.json",
     });
   });
   return (

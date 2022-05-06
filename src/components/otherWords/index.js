@@ -31,20 +31,16 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM to="/">dsfsdfsdf dsfs dfsd sdfsd f</NavLinkM>
+              <NavLinkM href="https://physionic-3yhliwcxg-zuiersadien.vercel.app">Physionic</NavLinkM>
             </h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            excepturi tenetur, libero vero ratione ipsam omnis voluptatibus
-            dolore sit nulla porro officia, deleniti doloribus recusandae eaque
-            ea! Possimus, culpa architecto.
+           Pagina web destinada al uso de creacion de citas en un hospital
           </p>
           <Divtec>
-            <p>Sublime </p>
-            <p>Atom </p>
-            <p>iTerm2 </p>
-            <p>Hyper</p>
+            <p>react </p>
+            <p>js </p>
+            <p>styled components</p>
           </Divtec>
         </DidPane>
         <DidPane>
@@ -58,20 +54,16 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM to="/">dsfsdfsdf dsfs dfsd sdfsd f</NavLinkM>
+              <NavLinkM href="https://game-life-phi.vercel.app">game life</NavLinkM>
             </h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            excepturi tenetur, libero vero ratione ipsam omnis voluptatibus
-            dolore sit nulla porro officia, deleniti doloribus recusandae eaque
-            ea! Possimus, culpa architecto.
+          El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. Es un juego de cero jugadores, en el que su evolución es determinada por un estado inicial, sin requerir intervención adicional.
           </p>
           <Divtec>
-            <p>Sublime </p>
-            <p>Atom </p>
-            <p>iTerm2 </p>
-            <p>Hyper</p>
+            <p>js </p>
+            <p>css </p>
+            <p>html </p>
           </Divtec>
         </DidPane>{" "}
         <DidPane>
@@ -85,103 +77,19 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM to="/">dsfsdfsdf dsfs dfsd sdfsd f</NavLinkM>
+              <NavLinkM to="/">Prometsur web</NavLinkM>
             </h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            excepturi tenetur, libero vero ratione ipsam omnis voluptatibus
-            dolore sit nulla porro officia, deleniti doloribus recusandae eaque
-            ea! Possimus, culpa architecto.
+          Aplicación web destinada al rubro de la metálica ,ubicada en arequipa usando como tecnologías principales React js ,Mongodb , Express NodeJS
           </p>
           <Divtec>
-            <p>Sublime </p>
-            <p>Atom </p>
-            <p>iTerm2 </p>
-            <p>Hyper</p>
+            <p>react </p>
+            <p>js </p>
+            <p>styled componets </p>
           </Divtec>
         </DidPane>{" "}
-        <DidPane>
-          <IconDiv>
-            <NavLinkM to="/">
-              <AiTwotoneFolderAdd />
-            </NavLinkM>
-            <NavLinkM to="/">
-              <FiExternalLink />
-            </NavLinkM>
-          </IconDiv>
-          <div>
-            <h3>
-              <NavLinkM to="/">dsfsdfsdf dsfs dfsd sdfsd f</NavLinkM>
-            </h3>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            excepturi tenetur, libero vero ratione ipsam omnis voluptatibus
-            dolore sit nulla porro officia, deleniti doloribus recusandae eaque
-            ea! Possimus, culpa architecto.
-          </p>
-          <Divtec>
-            <p>Sublime </p>
-            <p>Atom </p>
-            <p>iTerm2 </p>
-            <p>Hyper</p>
-          </Divtec>
-        </DidPane>
-        <DidPane>
-          <IconDiv>
-            <NavLinkM to="/">
-              <AiTwotoneFolderAdd />
-            </NavLinkM>
-            <NavLinkM to="/">
-              <FiExternalLink />
-            </NavLinkM>
-          </IconDiv>
-          <div>
-            <h3>
-              <NavLinkM to="/">dsfsdfsdf dsfs dfsd sdfsd f</NavLinkM>
-            </h3>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            excepturi tenetur, libero vero ratione ipsam omnis voluptatibus
-            dolore sit nulla porro officia, deleniti doloribus recusandae eaque
-            ea! Possimus, culpa architecto.
-          </p>
-          <Divtec>
-            <p>Sublime </p>
-            <p>Atom </p>
-            <p>iTerm2 </p>
-            <p>Hyper</p>
-          </Divtec>
-        </DidPane>
-        <DidPane>
-          <IconDiv>
-            <NavLinkM to="/">
-              <AiTwotoneFolderAdd />
-            </NavLinkM>
-            <NavLinkM to="/">
-              <FiExternalLink />
-            </NavLinkM>
-          </IconDiv>
-          <div>
-            <h3>
-              <NavLinkM to="/">dsfsdfsdf dsfs dfsd sdfsd f</NavLinkM>
-            </h3>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            excepturi tenetur, libero vero ratione ipsam omnis voluptatibus
-            dolore sit nulla porro officia, deleniti doloribus recusandae eaque
-            ea! Possimus, culpa architecto.
-          </p>
-          <Divtec>
-            <p>Sublime </p>
-            <p>Atom </p>
-            <p>iTerm2 </p>
-            <p>Hyper</p>
-          </Divtec>
-        </DidPane>
+  
       </Glidere>
     </DivOther>
   );

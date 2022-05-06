@@ -43,7 +43,7 @@ export const IconDiv = styled.div`
     color: rgb(34, 40, 49);
   }
 `;
-export const NavLinkM = styled(NavLink)`
+export const NavLinkM = styled.a`
   text-decoration: none;
   color: rgb(34, 40, 49);
 `;

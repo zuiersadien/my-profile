@@ -39,32 +39,33 @@ export const Portafolio = () => {
     <PortafolioDiv>
       <Texto>
         <div>
-          <h2>About Me</h2>
+          <h2>Sobre Mi</h2>
           <p>
-            Hello! My name is Brittany andt. My interest in web development
-            started back in 2012 when I decided to try editing custom Tumblr
-            themes — turns out hacking together a custom reblog button taught me
-            a lot about HTML & CSS!
+           Mi nombre es Elvis Wilfredo Tacco kana .Soy un apasionado de la programación , informática y diseno web. 
+           Radico actualmente en Arequipa ,y estoy con todas las ganas de buscar nuevas experiencias y aprender de ellas . 
           </p>
         </div>
         <BarrasDiv>
           <div>
-
             <p>Front End</p>
-            <div></div>
+
           </div>
           <div>
             <p>Back End</p>
-            <div></div>
+  
           </div>
           <div>
             <p>React</p>
-            <div></div>
+
+          </div>
+          <div>
+            <p>Vuejs</p>
+
           </div>
         </BarrasDiv>
       </Texto>
       <SpinnerDiv>
-        <SpinningText text="react    html   angular   JavaScript    Css    express       ">
+        <SpinningText text="react    html   VUEJS   JavaScript    Css    express  Mongodb  git  boostrap  ">
           <ImgSpiner ref={img}>
             <DivIcon>
               <FaReact />

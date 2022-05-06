@@ -1,59 +1,72 @@
 import styled from "styled-components";
 export const PortafolioDiv = styled.div`
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  padding: 10rem;
   display: flex;
   flex-direction: row-reverse;
   position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 export const Texto = styled.div`
-
   right: 0;
   width: 50%;
+  min-width: 300px;
+  @media (max-width: 300px) {
+    width: 100%;
+  }
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 
-  &>div{
+  & > div {
     padding: 2rem;
   }
-  & >div> h2 {
-      font-size: 3.2rem;
-      text-align: end;
-      padding: 2rem 0;
+  & > div > h2 {
+    font-size: 3.2rem;
+    text-align: end;
+    padding: 2rem 0;
   }
-  & >div> p {
+  & > div > p {
     font-size: 2rem;
     text-align: end;
   }
 `;
 export const SpinnerDiv = styled.div`
-  width: 50%;
+  min-width: 300px;
+  max-width: 50%;
   align-items: center;
   display: flex;
   justify-content: center;
+  @media (max-width: 300px) {
+    width: 100%;
+  }
 `;
 
 export const BarrasDiv = styled.div`
-    width: 100%;
-    
-    &>div{
-        text-align: start;
-        padding: 1rem;
-        margin: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-size: 1.6rem;
-    }
-    &>div>div{
-        width: 70%;
-        height: 0.3rem;
-        background-color: #393E46;
-    }
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  & > div {
+    text-align: start;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+  }
+  & > div > div {
+    width: 70%;
+    height: 0.3rem;
+    background-color: #393e46;
+  }
 `;
 
 export const ImgSpiner = styled.div`
@@ -119,4 +132,4 @@ export const DivIcon = styled.div`
         left: 40%;
         font-size:3rem;
     }
-`
+`;

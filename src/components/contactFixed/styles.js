@@ -11,7 +11,7 @@ export const ContactDiv = styled.div`
   justify-content: space-between; */
 `;
 
-export const IconLink = styled(NavLink)`
+export const IconLink = styled.a`
   text-decoration: none;
   color: #222831;
   font-size: 4rem;

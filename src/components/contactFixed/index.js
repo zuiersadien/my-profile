@@ -12,13 +12,13 @@ export const ContactFixed = () => {
   return (
     <ContactDiv>
       <DivIcon>
-        <IconLink to="./">
+        <IconLink href="https://github.com/zuiersadien">
           <AiFillGithub />
         </IconLink>
-        <IconLink to="./">
+        <IconLink href="https://www.linkedin.com/in/evis-wilfredo-taco-kana-1b970b199/">
           <AiFillLinkedin />
         </IconLink>
-        <IconLink to="./">
+        <IconLink href="https://www.linkedin.com/in/evis-wilfredo-taco-kana-1b970b199/">
           <AiFillCodepenCircle />
         </IconLink>
         <Line></Line>

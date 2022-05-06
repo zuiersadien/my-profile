@@ -1,6 +1,15 @@
 import React, { useRef, useEffect } from "react";
 import lottie from "lottie-web";
-import { Contenedor, DivTitulo, LinkContacto,DivImagen, H1, Olas ,Parrafo,Contactame} from "./styles";
+import {
+  Contenedor,
+  DivTitulo,
+  LinkContacto,
+  DivImagen,
+  H1,
+  Olas,
+  Parrafo,
+  Contactame,
+} from "./styles";
 import { NavLink } from "react-router-dom";
 export const Presentacion = () => {
   const imagen = useRef(null);
@@ -24,10 +33,8 @@ export const Presentacion = () => {
 
   return (
     <div>
-     
       <Contenedor>
-
-      <Olas ref={refy}></Olas>
+        <Olas ref={refy}></Olas>
         <DivTitulo>
           <div>
             <H1>Hi,</H1>
@@ -36,14 +43,13 @@ export const Presentacion = () => {
           </div>
           <div>
             <Parrafo>
-              I’m a software engineer specializing in building (and occasionally
-              designing) exceptional digital experiences. Currently, I’m focused
-              on building accessible, human-centered products at Upstatement.
+              Hola, soy un programador web ,especializado en la construcción (y
+              ocasionalmente diseñando) experiencias digitales excepcionales.
+              Actualmente, estoy enfocado en la creación de productos accesibles
+              Experto creando paginas web con las tecnologias de react y Vue .
             </Parrafo>
             <Contactame>
-            <LinkContacto to="/">
-              Contact me!
-            </LinkContacto>
+              <LinkContacto href="https://www.linkedin.com/in/evis-wilfredo-taco-kana-1b970b199/">Contactame!</LinkContacto>
             </Contactame>
           </div>
         </DivTitulo>

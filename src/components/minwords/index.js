@@ -10,8 +10,8 @@ export const Minword = (props,left) => {
       <TextDiv variant={props.variant}>
         <Linktitulo to="/">
           <p>proyecto V.3</p>
-          <H3>{props.title}</H3>
         </Linktitulo>
+          <H3 href={props.link}>{props.title}</H3>
         <Resalto>
           <p>{props.textp}</p>
         </Resalto>

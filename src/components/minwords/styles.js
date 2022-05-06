@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 export const CustonMinWords = styled.div`
   width: 80%;
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
@@ -29,6 +28,7 @@ export const ImgDiv = styled.div`
   flex-direction: row-reverse;
   border-left: 5px #00adb5 solid;
   
+  
   position: relative;
   transition: 1s;
   &:hover{
@@ -44,6 +44,7 @@ export const Image = styled.img`
   flex-direction: row-reverse;
   min-width: 500px;
   object-fit: cover;
+  
   &:hover{
     opacity:1;
   }
@@ -51,7 +52,7 @@ export const Image = styled.img`
 export const Linktitulo = styled(NavLink)`
   text-decoration: none;
 `;
-export const H3 = styled.h3`
+export const H3 = styled.a`
   font-size: 3rem;
   color: #222831;
 `;

@@ -1,40 +1,41 @@
 import React from "react";
 import { Minword } from "../minwords";
-import { WordsDiv ,H2} from "./styles";
+import { WordsDiv, H2 } from "./styles";
 
 export const Words = () => {
   return (
     <WordsDiv>
       <div>
-        <H2>
-        Some Things I’ve Built
-        </H2>
+        <H2>Algunos trabajos realizados</H2>
       </div>
       <div>
         <Minword
-          title="Halcyon Theme"
+          title="Prometsur web"
           variant=""
           key="1"
-          textp="A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more. "
-          tecnologias={["VS Code", "Sublime ", "Atom", "iTerm2", "Hyper"]}
-          img="https://brittanychiang.com/static/3936989a99991beb6d649d7a7039df60/f47db/demo.avif"
+          link="https://prometsruweb.herokuapp.com"
+          textp="Aplicación web destinada al rubro de la metálica ,ubicada en arequipa usando como tecnologías principales  React js ,Mongodb , Express NodeJS"
+          tecnologias={["VS Code", "React ", "styled compoents", "CSS"]}
+          img="https://fv9-5.failiem.lv/thumb_show.php?i=hvr5ksvm4&view"
         />
 
         <Minword
-          title="Halcyon Theme"
+          title="Cat WIKI"
           variant="bold"
           key="2"
-          textp="A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more. "
-          tecnologias={["VS Code", "Sublime ", "Atom", "iTerm2", "Hyper"]}
-          img="https://brittanychiang.com/static/3936989a99991beb6d649d7a7039df60/f47db/demo.avif"
+          link="https://cat-wiki-9t9ezhlwt-zuiersadien.vercel.app"
+          textp="Aplicación web destinada a la búsqueda y la raza de gatos  ,usando como tecnologías principales  React js "
+          tecnologias={["VS Code", "react ", "API REST", "nodejs"]}
+          img="https://i.postimg.cc/LSDyh7Zr/image-2022-05-06-111201479.png"
         />
         <Minword
-          title="Halcyon Theme"
+          title="vue TODO"
           variant=""
           key="3"
-          textp="A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more. "
-          tecnologias={["VS Code", "Sublime ", "Atom", "iTerm2", "Hyper"]}
-          img="https://brittanychiang.com/static/3936989a99991beb6d649d7a7039df60/f47db/demo.avif"
+          link="https://vue-todo-l7828v8bh-zuiersadien.vercel.app"
+          textp="Aplicación de creación de notas , usando como tecnologia Vuejs "
+          tecnologias={["JS", "VUEJS ", "HTML", "CSS"]}
+          img="https://i.postimg.cc/cxh5SkQG/image-2022-05-06-111711837.png"
         />
       </div>
     </WordsDiv>

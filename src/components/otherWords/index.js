@@ -31,12 +31,13 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM href="https://physionic-3yhliwcxg-zuiersadien.vercel.app">Physionic</NavLinkM>
+              <NavLinkM href="https://physionic-3yhliwcxg-zuiersadien.vercel.app">
+                Physionic
+              </NavLinkM>
             </h3>
           </div>
-          <p>
-           Pagina web destinada al uso de creacion de citas en un hospital
-          </p>
+          <p>Pagina web destinada al uso de creacion de citas en un hospital</p>
+
           <Divtec>
             <p>react </p>
             <p>js </p>
@@ -54,11 +55,16 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM href="https://game-life-phi.vercel.app">game life</NavLinkM>
+              <NavLinkM href="https://game-life-phi.vercel.app">
+                game life
+              </NavLinkM>
             </h3>
           </div>
           <p>
-          El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. Es un juego de cero jugadores, en el que su evolución es determinada por un estado inicial, sin requerir intervención adicional.
+            El Juego de la vida es un autómata celular diseñado por el
+            matemático británico John Horton Conway en 1970. Es un juego de cero
+            jugadores, en el que su evolución es determinada por un estado
+            inicial, sin requerir intervención adicional.
           </p>
           <Divtec>
             <p>js </p>
@@ -81,7 +87,9 @@ export const OtherWords = () => {
             </h3>
           </div>
           <p>
-          Aplicación web destinada al rubro de la metálica ,ubicada en arequipa usando como tecnologías principales React js ,Mongodb , Express NodeJS
+            Aplicación web destinada al rubro de la metálica ,ubicada en
+            arequipa usando como tecnologías principales React js ,Mongodb ,
+            Express NodeJS
           </p>
           <Divtec>
             <p>react </p>
@@ -89,7 +97,6 @@ export const OtherWords = () => {
             <p>styled componets </p>
           </Divtec>
         </DidPane>{" "}
-  
       </Glidere>
     </DivOther>
   );

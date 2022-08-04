@@ -41,7 +41,7 @@ export const Portafolio = () => {
         <div>
           <h2>Sobre Mi</h2>
           <p>
-           Mi nombre es Elvis Wilfredo Tacco kana .Soy un apasionado de la programación , informática y diseno web. 
+           Mi nombre es Elvis Wilfredo Taco kana .Soy un apasionado de la programación , informática y diseno web. 
            Radico actualmente en Arequipa ,y estoy con todas las ganas de buscar nuevas experiencias y aprender de ellas . 
           </p>
         </div>

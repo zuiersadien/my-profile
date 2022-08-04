@@ -1,17 +1,29 @@
 import React from "react";
-import {CustonMinWords,TextDiv,IconDiv,ImgDiv,LinkIcono,Image,H3,Resalto,ImgLink,Linktitulo,DivPs} from "./styles";
+import {
+  CustonMinWords,
+  TextDiv,
+  IconDiv,
+  ImgDiv,
+  LinkIcono,
+  Image,
+  H3,
+  Resalto,
+  ImgLink,
+  Linktitulo,
+  DivPs,
+} from "./styles";
 import { NavLink } from "react-router-dom";
-import { AiOutlineGithub } from 'react-icons/ai';
-import { FiExternalLink } from 'react-icons/fi';
+import { AiOutlineGithub } from "react-icons/ai";
+import { FiExternalLink } from "react-icons/fi";
 
-export const Minword = (props,left) => {
+export const Minword = (props, left) => {
   return (
-    <CustonMinWords >
+    <CustonMinWords>
       <TextDiv variant={props.variant}>
         <Linktitulo to="/">
           <p>proyecto V.3</p>
         </Linktitulo>
-          <H3 href={props.link}>{props.title}</H3>
+        <H3 href={props.link}>{props.title}</H3>
         <Resalto>
           <p>{props.textp}</p>
         </Resalto>
@@ -22,18 +34,17 @@ export const Minword = (props,left) => {
         </DivPs>
         <IconDiv>
           <LinkIcono to="/">
-              <AiOutlineGithub/>
+            <AiOutlineGithub />
           </LinkIcono>
           <LinkIcono to="/">
-              <FiExternalLink/>
+            <FiExternalLink />
           </LinkIcono>
         </IconDiv>
       </TextDiv>
       <ImgDiv variant={props.variant}>
-            <ImgLink to="/">
-            <Image src={props.img} alt="" />
-            </ImgLink>
-  
+        <ImgLink to="/">
+          <Image src={props.img} alt="" />
+        </ImgLink>
       </ImgDiv>
     </CustonMinWords>
   );

@@ -9,14 +9,23 @@ export const Words = () => {
         <H2>Algunos trabajos realizados</H2>
       </div>
       <div>
+      <Minword
+          title="Activo Digital "
+          variant="bold"
+          key="1"
+          link="https://activodigital.pe"
+          textp="Aplicación web destinada a la compra y venta de USDT en el Peru usando como tecnologias principales ,Js ,PHP ,Svelte ,Vue ,Mongodb , Express y MySQL "
+          tecnologias={["Vuejs", "Svelte ", "Mongodb", "bulmaCss"]}
+          img="https://i.ibb.co/zXQTX21/image-2022-08-03-223135254.png"
+        />
         <Minword
           title="Prometsur web"
           variant=""
-          key="1"
+          key="2"
           link="https://prometsruweb.herokuapp.com"
           textp="Aplicación web destinada al rubro de la metálica ,ubicada en arequipa usando como tecnologías principales  React js ,Mongodb , Express NodeJS"
           tecnologias={["VS Code", "React ", "styled compoents", "CSS"]}
-          img="https://fv9-5.failiem.lv/thumb_show.php?i=hvr5ksvm4&view"
+          img="https://i.ibb.co/DMDvcj4/image-2022-08-03-222051746.png"
         />
 
         <Minword

@@ -32,7 +32,7 @@ export const Presentacion = () => {
   });
 
   return (
-    <div>
+    <div id="about">
       <Contenedor>
         <Olas ref={refy}></Olas>
         <DivTitulo>

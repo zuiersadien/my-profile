@@ -52,9 +52,12 @@ export const Divtec = styled.div`
   display: flex;
   flex-direction: row;
   padding: 1rem;
+  aling-items:center;
   justify-content:  space-between;
  &>p{
     font-size: 1.6rem;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
  }
 `;

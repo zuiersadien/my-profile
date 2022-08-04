@@ -24,7 +24,7 @@ export const ContactFixed = () => {
         <Line></Line>
       </DivIcon>
       <DivCorreo>
-        <EmailLink to="./">zuiersadien@gmail.com</EmailLink>
+        <EmailLink href="mailto:zuiersadien@gmail.com">zuiersadien@gmail.com</EmailLink>
         <Line></Line>
       </DivCorreo>
     </ContactDiv>

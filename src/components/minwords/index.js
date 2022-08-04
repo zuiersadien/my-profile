@@ -23,7 +23,7 @@ export const Minword = (props, left) => {
         <Linktitulo to="/">
           <p>proyecto V.3</p>
         </Linktitulo>
-        <H3 href={props.link}>{props.title}</H3>
+        <H3 href={props.link} target="_blank" >{props.title} </H3>
         <Resalto>
           <p>{props.textp}</p>
         </Resalto>

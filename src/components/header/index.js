@@ -26,19 +26,19 @@ export const Header = () => {
           </LogoBarra>
           <UlDiv>
             <Libarra>
-              <LinkBarra to="/">1. About</LinkBarra>
+              <LinkBarra href="#info">1. About</LinkBarra>
             </Libarra>
             <Libarra>
-              <LinkBarra to="/s">2. My skills</LinkBarra>
+              <LinkBarra href="#skills">2. My skills</LinkBarra>
             </Libarra>
             <Libarra>
-              <LinkBarra to="/">3. My words</LinkBarra>
+              <LinkBarra href="#words">3. My words</LinkBarra>
             </Libarra>
             <Libarra>
-              <LinkBarra to="/">4. My practices</LinkBarra>
+              <LinkBarra href="#practices">4. My practices</LinkBarra>
             </Libarra>
             <Libarra>
-              <LinkBarra to="/">5. My Contacts</LinkBarra>
+              <LinkBarra href="/">5. My Contacts</LinkBarra>
             </Libarra>
           </UlDiv>
         </UlBarra>

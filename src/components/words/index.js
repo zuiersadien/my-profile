@@ -4,7 +4,7 @@ import { WordsDiv, H2 } from "./styles";
 
 export const Words = () => {
   return (
-    <WordsDiv>
+    <WordsDiv id="words">
       <div>
         <H2>Algunos trabajos realizados</H2>
       </div>

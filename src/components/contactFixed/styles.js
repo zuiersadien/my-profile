@@ -46,7 +46,7 @@ export const DivCorreo = styled.div`
 
 
 `;
-export const EmailLink = styled(NavLink)`
+export const EmailLink = styled.a`
   font-family: "Roboto Mono", monospace;
   text-decoration: none;
   color: #000000;

@@ -36,10 +36,10 @@ export const Portafolio = () => {
     });
   });
   return (
-    <PortafolioDiv>
+    <PortafolioDiv id="skills">
       <Texto>
         <div>
-          <h2>Sobre Mi</h2>
+          <h2 >Sobre Mi</h2>
           <p>
            Mi nombre es Elvis Wilfredo Taco kana .Soy un apasionado de la programación , informática y diseno web. 
            Radico actualmente en Arequipa ,y estoy con todas las ganas de buscar nuevas experiencias y aprender de ellas . 
@@ -60,7 +60,9 @@ export const Portafolio = () => {
           </div>
           <div>
             <p>Vuejs</p>
-
+          </div>
+          <div>
+            <p>Svelte</p>
           </div>
         </BarrasDiv>
       </Texto>

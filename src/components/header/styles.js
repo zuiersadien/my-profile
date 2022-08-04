@@ -39,7 +39,7 @@ export const Libarra = styled.li`
 
 
 `;
-export const LinkBarra =styled(NavLink)`
+export const LinkBarra =styled.a`
   font-size: 1.6rem;
   text-align: center;
   width: 100%;

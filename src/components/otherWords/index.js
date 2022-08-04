@@ -16,7 +16,7 @@ import { NavLink } from "react-router-dom";
 
 export const OtherWords = () => {
   return (
-    <DivOther>
+    <DivOther id="practices">
       <h2>Other Noteworthy Projects</h2>
 
       <Glidere draggable hasArrows hasDots slidesToShow={3} slidesToScroll={5}>
@@ -31,17 +31,17 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM href="https://physionic-3yhliwcxg-zuiersadien.vercel.app">
+              <NavLinkM href="https://physionic-3yhliwcxg-zuiersadien.vercel.app" target="_blank">
                 Physionic
               </NavLinkM>
             </h3>
           </div>
           <p>Pagina web destinada al uso de creacion de citas en un hospital</p>
 
-          <Divtec>
+          <Divtec >
             <p>react </p>
             <p>js </p>
-            <p>styled components</p>
+            <p>SCmponents </p>
           </Divtec>
         </DidPane>
         <DidPane>
@@ -55,7 +55,7 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM href="https://game-life-phi.vercel.app">
+              <NavLinkM href="https://game-life-phi.vercel.app" target="_blank">
                 game life
               </NavLinkM>
             </h3>
@@ -83,7 +83,7 @@ export const OtherWords = () => {
           </IconDiv>
           <div>
             <h3>
-              <NavLinkM to="/">Prometsur web</NavLinkM>
+              <NavLinkM href="https://prometsruweb.herokuapp.com" target="_blank">Prometsur web</NavLinkM>
             </h3>
           </div>
           <p>
